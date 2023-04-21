@@ -1,2 +1,2 @@
-# sp23-cse110-lab3
-CSE 110 lab 3 (CSS)
+
+[def]: https://tylerlo416.github.io/Lab2_Starter/
