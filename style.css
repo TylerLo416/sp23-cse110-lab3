@@ -1,0 +1,137 @@
+/*This is a CSS comment*/
+
+button {
+    position: relative;
+    background-color: brown;
+    font-size: 1vw;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1em;
+    color: rgb(120,12,12);
+    text-decoration:overline;
+    text-align: right;
+    padding: 3 px 4 px 5 px 6 px;
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 3px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+
+    /*important headers*/
+  h1 {
+    font-size: 1in;
+    color: #4CAF50;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    padding-top: 25 px;
+    padding-left: 50 px;
+    padding-bottom: 10 px;
+    padding-right: 40 px;
+
+  }
+
+  h2 {
+    font-size: 3vh;
+    margin: 25 px 50px 25px 25px;
+  }
+
+  h3, h4 {
+    font-size: 2rem;
+    margin: auto;
+  }
+  /*selecting the id for unfinished buisness*/
+  #unfinishedBuisness {
+    font-size: 50pt;
+    text-align: center;
+    background-color: hsl(170, 50%, 50%);
+    color: hsl(0, 50%, 50%);
+    max-width: 50px;
+  }
+  
+  #attendance {
+    min-width: 200px;
+    background-color: cadetblue;
+  }
+
+  #attendance:hover {
+    color:hotpink;
+  }
+  #attendance:active {
+    color:bisque;
+  }
+
+  .title {
+    position: fixed;
+    font-size: 15px;
+    text-align:end;
+  }
+  #footer {
+    font-size: 1cm;
+  }
+
+  #form {
+    display:table-caption;
+    position: relative;
+  }
+
+  #links {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: DodgerBlue;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: space-around;
+  }
+
+  #agenda {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    background-color: aliceblue;
+    padding: 10px;
+    column-gap: 50px;
+    row-gap: 20px;
+  }
+
+  * {
+    font-family: 'Tangerine', serif;
+  }
+  @media screen and (max-width: 1000px) {
+    body {
+      background-color: green;
+    }
+  }
+
+  [title~="8ball"] {
+    border: 50px solid pink;
+    border-radius: 50px;
+  }
+
+  form p {
+    background-color: aqua;
+  }
+
+  section > h4 {
+    background-color: yellow;
+    border-radius: 20px;
+  }
+
+  h4 + p {
+    background-color: blueviolet;
+    color:hsl(170, 50%, 50%);
+  }
+
+  details ~ p {
+    background-color: aliceblue;
+  }
+
+  summary.half {
+    font-size: 50px;
+  }

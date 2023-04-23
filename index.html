@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab2 CSE 110</title>
     <link rel="icon" type="image/x-icon" href="/meetingMinutes.png">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+/*entire webpage*/
+  body {
+    background-color: lightgray;
+  }
+</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1> Meeting Notes</h1>
+        <h1 class="title"> Meeting Notes - It's position:fixed :O</h1>
         <h2> Meeting Topic: Brainstorming Crazy-8 balls</h2>
         <h3> 4/15/23 </h3>
     </header>
     <p><b>Links to previous Meeting Minutes:</b></p>
-    <nav>
+    <nav id="links">
         <a href="https://www.w3schools.com">3/1</a> |
         <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_test">3/8</a> |
         <a href="https://www.w3schools.com/css/css3_buttons.asp">3/15</a> |
@@ -22,7 +31,7 @@
     </nav>
     <main>
         <section>
-            <h3> Attendence List:</h3>
+            <h3 id="attendance"> Attendence List:</h3>
             <ol>
                 <li> Tyler Lo</li>
                 <li> Tyler Lo</li>
@@ -30,7 +39,7 @@
                 <li> Tyler Lo</li>
             </ol>
         </section>
-        <section>
+        <section id="agenda">
             <h4> Agenda</h4>
             <ul> 
                 <li><strong>Introductions</strong></li>
@@ -44,7 +53,7 @@
 
         </section>
         <section>
-            <h4>Unfinished buisness</h4>
+            <h4 id="unfinishedBuisness">Unfinished buisness</h4>
             <p>Working on assigning roles and figuring out how to rotate 
                people around to get different skills for all people.
             </p>
@@ -61,13 +70,13 @@
         <section>
             <h4> Misc. comments</h4>
             <details>
-                <summary> First half</summary>
+                <summary class="half"> First half</summary>
                 <p>
                     Worked on team bonding and psychological safety! :O
                 </p>
             </details>
             <p> Diagram of what the 8-ball will look like:</p>
-            <img src="8ball.PNG" alt="8ball">
+            <img src="8ball.PNG" alt="8ball" style="width:300px; height:300px;" title="8ball">
             <p> I garnered rare footage of what our brains look like</p>
             <video controls>
                 <source src="ourBrainsVid.mp4" type="video/mp4">
@@ -80,7 +89,7 @@
         </section>
         <section>
             <h4> form</h4>
-            <form>
+            <form id="form">
                 <fieldset>
                 <p> put your name:</p>
                 <input type="text">
@@ -114,7 +123,7 @@
         </section>
     </main>
     <footer>
-        <p> And thus we conclude our meeting I'm 99% sure everything required is here</p>
+        <p id="footer"> And thus we conclude our meeting I'm 99% sure everything required is here</p>
     </footer>
 </body>
 </html>
